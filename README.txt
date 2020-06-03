@@ -1,4 +1,3 @@
-# text-to-speakeasy
 lil text to speech thingie
 
 requires tkinter, gTTS, and playsound
