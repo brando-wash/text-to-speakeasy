@@ -11,9 +11,9 @@ win.geometry("250x70")
 def text_to_speech():
     text = entry.get()
     speech = gTTS(text=text, lang="en")
-    speech.save(r'C:\Users\Brandon\CODE\python-portfolio\speech.mp3')
-    playsound(r'C:\Users\Brandon\CODE\python-portfolio\speech.mp3')
-    os.remove(r'C:\Users\Brandon\CODE\python-portfolio\speech.mp3')
+    speech.save(r'C:\Users\Public\speech.mp3')
+    playsound(r'C:\Users\Public\speech.mp3')
+    os.remove(r'C:\Users\Public\speech.mp3')
 
 label = tk.Label(win,text="Enter Text :")
 label.grid(row=0,column=0)
